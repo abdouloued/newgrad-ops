@@ -33,6 +33,7 @@ LeetCode, interview prep, company prep, portfolio audit, referral, recruiting
 /student apply-plan                  Build a weekly application plan
 /student fit-score <job-url>         Score role fit vs current resume
 /student tailor-resume <job-url>     Generate targeted resume diff
+/student roast-resume <resume>       Blunt version of fit-score — same checks, no sugar-coating
 /student track <company>             Log application status
 /student follow-up                   Draft a follow-up email
 
@@ -77,7 +78,7 @@ LeetCode, interview prep, company prep, portfolio audit, referral, recruiting
 
 ## Scripts
 
-- `scripts/score_resume.py` — local resume scorer (0–100 + gap list)
+- `scripts/score_resume.py` — local resume scorer (0–100 + gap list); `--roast` for blunt delivery of the same checks
 - `scripts/score_readme.py` — GitHub README quality scorer
 - `scripts/generate_review_schedule.py` — spaced repetition schedule from solved list
 - `scripts/search_problems.py` — search the problem maps by slug, title, pattern, or difficulty; backs `interview diagnose`, `interview company`, and `interview explain-with-links`

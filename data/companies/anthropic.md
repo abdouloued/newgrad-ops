@@ -5,14 +5,16 @@
 - **Application:** Standard resume + cover letter optional
 - **Stages:** Application → OA (if applicable) → Phone/Video Screen → Technical Interviews → Final Round
 - **Video tool:** Google Meet (per careers page)
-- **Coding tools:** Colab and CodeSignal are mentioned for technical roles
+- **Coding tools:** Colab, CodeSignal, or Replit — a shared live Python environment, not a LeetCode-style judge
+- **Coding style:** **Not classic LeetCode.** Reported format is a single problem that escalates across 3–4 tiers, each building on the code you already wrote (e.g. build a web crawler → make it multi-threaded → filter/aggregate results). The CodeSignal take-home version is similarly leveled: pass tests at one level to unlock the next.
 - **Lookups allowed:** Yes — candidates may look things up, but should be comfortable with basic syntax and standard library usage
 - **AI usage:** Only when explicitly permitted by Anthropic for that specific assessment. The company's candidate guidance states they will be clear when AI is allowed (e.g. "you may use Claude for this coding challenge"). Do not assume AI is allowed.
 
 ## AI policy
 
 From anthropic.com/candidate-ai-guidance (public):
-> Anthropic wants to assess the candidate's own skills and will be explicit when AI tools are permitted.
+> During live interviews: this is all you — no AI assistance unless we indicate otherwise. We're curious to see how you think through problems in real time.
+> For take-home assessments: complete these without Claude unless we indicate otherwise.
 
 **What this means for prep:**
 - Practice solving problems without autocomplete first

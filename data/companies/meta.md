@@ -3,7 +3,8 @@
 ## Format
 
 - **Stages:** Application → OA (HackerRank) → Phone screen → Virtual onsite (3–4 rounds)
-- **Coding tools:** CoderPad for live interviews
+- **Coding tools:** CoderPad for live interviews; HackerRank for the OA
+- **Coding style:** Classic LeetCode-style algorithmic problems, same family as Google's — the difference is speed pressure, not problem style. Expect to be scored partly on how fast you reach a working solution, not just correctness.
 - **Lookups allowed:** Generally no; OA may allow docs
 - **AI usage:** Not permitted unless explicitly stated
 

@@ -27,7 +27,8 @@
 *(From public sources: anthropic.com/careers, anthropic.com/candidate-ai-guidance)*
 
 - **Video:** Google Meet
-- **Coding tools:** Colab and CodeSignal mentioned for technical roles
+- **Coding tools:** Colab, CodeSignal, or Replit — a shared live Python environment, not a LeetCode judge
+- **Coding style:** Not classic LeetCode. A single problem escalates across 3–4 tiers, each building on the code you already wrote (e.g. build a crawler → make it multi-threaded → filter results). Different prep than grinding isolated algorithm problems.
 - **Lookups:** Allowed — candidates may reference docs, but should be fluent in basic syntax and standard libraries
 - **AI usage:** Only when explicitly permitted. Anthropic will state clearly if Claude (or other AI) is allowed for a given assessment. Assume AI is NOT allowed unless told otherwise.
 

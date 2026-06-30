@@ -5,6 +5,7 @@
 - **Stages:** Application → Take-home project OR OA → Technical interview → Onsite (3–5 rounds)
 - **Coding tools:** CoderPad or shared editor; take-home in your own environment
 - **Take-home:** Stripe often uses a multi-hour take-home coding project (real-world style) rather than LeetCode-style OA
+- **Coding style:** **Not LeetCode.** The take-home is closer to a small production feature — error handling, edge cases, and code you'd be comfortable shipping matter more than algorithmic cleverness. Live rounds may still include a DSA-style warm-up question, but it's not the bulk of the bar.
 - **Lookups allowed:** Yes for take-home; interview rounds may vary
 - **AI usage:** Not explicitly published; assume no unless told otherwise for live rounds
 

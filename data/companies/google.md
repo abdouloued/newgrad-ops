@@ -5,6 +5,7 @@
 - **Stages:** OA (STEP / Kickstart for interns) → Phone screen → Onsite (4–5 rounds)
 - **Intern-specific:** STEP program for 1st/2nd year; standard SWE internship for 3rd year+
 - **Coding tools:** Google Docs (no IDE in interviews — practice this!) or CoderPad depending on team
+- **Coding style:** Classic LeetCode-style algorithmic problems — closed-book, whiteboard-equivalent, no execution environment. This is the most "traditional DSA grind" company in this repo's coverage.
 - **Lookups allowed:** No lookups in live interviews; OA may allow some resources
 - **AI usage:** Not permitted in interviews unless explicitly stated
 

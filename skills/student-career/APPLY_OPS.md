@@ -98,6 +98,34 @@ Note: These are draft suggestions. Review for accuracy before applying.
 
 ---
 
+### `/student roast-resume <resume>`
+
+Same scoring engine as `fit-score`/`tailor-resume`, blunter delivery. For
+students who've been told "looks good" too many times and want the version
+that actually gets read by a tired recruiter.
+
+**Steps:**
+1. Run `python scripts/score_resume.py <path> --roast`
+2. Present the roast as-is — each one-liner is paired with the real, actionable fix. Don't soften the line, but never invent a flaw the scorer didn't actually find.
+3. End with the score band comment, not just the score — it's the difference between "65/100" and "this won't survive a 30-second skim."
+
+**Output format:**
+```
+Resume Roast — 47/100 (be glad this isn't live)
+
+This resume would lose to a templated one. Start over on the bullets.
+
+What's actually wrong, in order:
+  1. Every bullet reads like a job description, not something you actually did. Where are the numbers?
+     fix: Weak impact quantification — add numbers (%, users, latency, req/s) to bullets
+  2. "Responsible for" is not an action verb. Neither is "helped with."
+     fix: Bullet points lack action verbs — start each bullet with a strong verb (Built, Designed, Reduced…)
+
+Note: the roast and the score come from the same checks as the non-roast mode — nothing here is made up to be funny.
+```
+
+---
+
 ### `/student track <company>`
 
 Log an application status update.

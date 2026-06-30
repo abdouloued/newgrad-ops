@@ -34,6 +34,7 @@ INTERVIEW FORMAT
   [sourced from public careers page / candidate guidance]
   Stages: [e.g. OA → phone screen → technical → final]
   Tools used: [e.g. Colab, CodeSignal, HackerRank]
+  Coding style: [LeetCode-style algorithmic / live escalating challenge / practical-debugging / take-home production code — pull straight from the company file's "Coding style" line, don't assume every company runs a LeetCode grind]
   AI policy: [what the company says publicly]
   Lookups allowed: [yes/no/context-dependent]
 
@@ -66,7 +67,7 @@ Note: Interview formats change. Verify against the current careers page.
 
 Company data lives in `data/companies/`. Each file is a markdown document with:
 
-- `## Format` — interview stages and tools (from public careers page)
+- `## Format` — interview stages, tools, and a **Coding style** line (from public careers page). Companies differ a lot here — Google and Meta run classic closed-book LeetCode-style algorithmic rounds; Anthropic runs a live, escalating multi-tier challenge in a shared Python environment; OpenAI leans practical (debug/extend existing code over blank-file algorithm puzzles); Stripe's take-home is closer to a small production feature than a DSA problem. Don't assume "coding interview" means "LeetCode" — read this line before recommending a prep plan.
 - `## AI policy` — what the company says publicly about candidate AI use
 - `## Focus areas` — technical emphasis for this company
 - `## Behavioral` — themes, culture signals
