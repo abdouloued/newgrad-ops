@@ -12,6 +12,8 @@ Track applications · tailor resumes · prep for online assessments · grind com
 
 Not another job tracker — an agentic career operating system for breaking into tech.
 
+![Demo: company prep pack, weak-pattern report, and portfolio audit running back to back](assets/demo.gif)
+
 ---
 
 ## One student journey
