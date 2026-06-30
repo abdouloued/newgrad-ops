@@ -40,9 +40,25 @@ python scripts/search_problems.py --title "your problem title"
 ### Add a company prep pack
 
 Create `data/companies/<name>.md` following the structure of
-`data/companies/anthropic.md` (`## Format`, `## AI policy`, `## Focus areas`,
-`## Behavioral`, `## Recommended prep`, `## Sources`). Every factual claim
-about interview process needs a cited public source.
+`data/companies/anthropic.md` (`## Format` — including a `Coding style` line,
+`## Focus areas`, `## Behavioral`, `## Recommended prep`, optionally
+`## Community reports`, and `## Sources`). Every factual claim about
+interview process needs a cited public source.
+
+File by current legal/brand name, not historical ones — Meta's file is
+`meta.md`, not `facebook.md`, since Facebook the company was renamed to Meta
+in 2021. If a rename happens again, rename the file in the same PR as the
+update rather than adding a duplicate.
+
+**On `## Community reports`:** individual candidates write detailed, public
+posts about their interview experience all the time (Medium, personal blogs,
+named Reddit/LinkedIn posts) and these are genuinely useful — they're often
+more current and specific than aggregator sites. You can cite a few, by name,
+with a one-line note on what each adds. What you can't do: bulk-scrape
+Glassdoor/Blind/LeetCode Discuss into this file. Those sites gate that data
+behind login/ToS specifically to prevent scraping, and AGENTS.md's "no
+scraped content" rule applies here too. One contributor manually citing one
+post they actually read is the model — not an automated aggregator.
 
 ### Fix a template or OPS module
 

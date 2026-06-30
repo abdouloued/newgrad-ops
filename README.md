@@ -124,13 +124,17 @@ python scripts/search_problems.py --pattern "Graphs" --difficulty Medium
 ## Company prep packs
 
 Built-in coverage for:
-- [Anthropic](data/companies/anthropic.md) — CodeSignal · Colab · AI usage policy
-- [OpenAI](data/companies/openai.md)
-- [Google](data/companies/google.md) — Google Docs coding, no IDE
-- [Meta](data/companies/meta.md) — speed-focused, STAR behavioral
-- [Stripe](data/companies/stripe.md) — take-home projects, code quality focus
+- [Anthropic](data/companies/anthropic.md) — live escalating challenge (Colab/CodeSignal), AI usage policy
+- [OpenAI](data/companies/openai.md) — practical/debugging style, not blank-file LeetCode
+- [Google](data/companies/google.md) — Google Docs coding, no IDE, classic LeetCode-style
+- [Meta](data/companies/meta.md) — formerly Facebook — speed-focused, classic LeetCode-style
+- [Amazon](data/companies/amazon.md) — classic LeetCode-style + Leadership Principles as their own bar
+- [Microsoft](data/companies/microsoft.md) — classic LeetCode-style with a behavioral warm-up each round
+- [Stripe](data/companies/stripe.md) — take-home projects, code quality focus, not LeetCode-style
 
-Add your own: create `data/companies/<name>.md` following the same template.
+Each file states its `Coding style` explicitly — some of these companies don't run a LeetCode-style interview at all, and treating every "coding interview" the same way is the fastest way to over- or under-prep.
+
+Add your own: create `data/companies/<name>.md` following the same template (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ---
 
