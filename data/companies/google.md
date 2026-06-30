@@ -41,6 +41,13 @@ Suggested STAR stories:
 - Ask clarifying questions before coding
 - Discuss edge cases explicitly
 
+## Community reports
+
+Individually-cited candidate write-ups, not scraped aggregate data:
+
+- ["Google Interview Experience — Software Engineer, University Graduate 2026" — Yash Patel, Medium](https://medium.com/@yashitz07/google-interview-experience-software-engineer-university-graduate-2026-69c9c097db89) — new-grad-specific timeline (referral → recruiter contact → 3 rounds) with real dates.
+- ["My Google [Software Engineer] Interview Experience | L4" — Shiwangi Kumari, Medium](https://medium.com/@sshiwangi770/my-google-software-engineer-interview-experience-l4-46de5a70fb1f) — round-by-round account confirming the Google Docs, no-IDE format documented above.
+
 ## Sources
 
 - https://careers.google.com/how-we-hire/ (official hiring process)

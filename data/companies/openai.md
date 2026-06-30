@@ -42,6 +42,13 @@ Suggested STAR stories:
 - For SWE roles: review system design fundamentals (rate limiting, caching, queues)
 - For ML/infra-adjacent roles: review model training pipeline and data infrastructure concepts
 
+## Community reports
+
+Individually-cited candidate write-ups, not scraped aggregate data:
+
+- ["How I prepared for my OpenAI interview, and what actually helped" — Tomotake Zata, Medium](https://medium.com/@tomzat/how-i-prepared-for-my-openai-interview-and-what-actually-helped-a185eefbafe6) — prep-focused, what the candidate would and wouldn't repeat.
+- ["I Interviewed at OpenAI — Here's What I Learned" — Techmade, Medium](https://techmade.medium.com/i-interviewed-at-openai-heres-what-i-learned-151873affd82) — a non-offer account; useful counterweight to survivorship-biased success stories.
+
 ## Sources
 
 - [OpenAI interview process & timeline — IGotAnOffer](https://igotanoffer.com/en/advice/openai-interview-process)

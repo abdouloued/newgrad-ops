@@ -68,12 +68,10 @@ in `skills/student-career/SKILL.md` — they must stay in sync.
 
 ## Good first issues
 
-- **Add more company packs.** Apple, Netflix, Nvidia, and most mid-size
-  AI/infra startups aren't covered yet. Amazon, Microsoft, Anthropic, OpenAI,
-  Google, Meta, and Stripe are.
-- **Add `## Community reports` to the older company files.** Anthropic,
-  OpenAI, Google, Meta, and Stripe don't have one yet — Amazon and Microsoft
-  do, use those as the reference format.
+- **Add more company packs.** Nvidia and most mid-size AI/infra startups
+  aren't covered yet. Anthropic, OpenAI, Google, Meta, Amazon, Microsoft,
+  Apple, Netflix, and Stripe are — all 9 with a `Coding style` line and a
+  `## Community reports` section.
 - NeetCode 150 is exactly 150, Monster 50 is exactly 50, and Blind 75 has 76
   (the canonical list is 75, but we picked up a duplicate-flagging fix that
   left one extra real problem in — not worth removing a correct entry just

@@ -39,6 +39,13 @@ Suggested STAR stories:
 - Prepare 5–6 stories adaptable to different questions
 - Quantify impact in each story (users affected, time saved, error rate reduced)
 
+## Community reports
+
+Individually-cited candidate write-ups, not scraped aggregate data:
+
+- ["Meta SWE (New Grad) Interview Experience — Off Campus" — Suparna Chakraborty, Medium](https://medium.com/@suparna_chakraborty/meta-swe-new-grad-interview-experience-off-campus-11f6d02b2d58) — OA structure (4 medium problems, 1-hour limit) and round-by-round detail, ends in a rejection — useful for calibration, not just success stories.
+- ["2024 Meta Engineer Interview Process — I Passed!" — Keith Chan, Medium](https://chan-keith-96.medium.com/2024-meta-engineer-interview-process-i-passed-e9ea8d369f3f) — full loop through team matching and offer.
+
 ## Sources
 
 - https://www.metacareers.com/life/how-to-prepare-for-a-meta-software-engineer-interview/ (official guide)

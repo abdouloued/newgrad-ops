@@ -74,6 +74,6 @@ Company data lives in `data/companies/`. Each file is a markdown document with:
 - `## Community reports` *(optional)* — 2–4 individually-cited, named candidate write-ups (personal blogs, Medium, named first-person accounts), each with a one-line note on what it adds. This is anecdotal texture, not policy — never treat it as authoritative, and never bulk-aggregate from a site (Glassdoor/Blind scraping is both against those sites' terms and against this repo's no-scraping rule in [AGENTS.md](../../AGENTS.md)). One contributor citing one post they found and read is fine; an automated scrape of hundreds is not.
 - `## Sources` — public URLs
 
-Covered companies: Anthropic · OpenAI · Google · Meta (formerly Facebook) · Amazon · Microsoft · Stripe
+Covered companies: Anthropic · OpenAI · Google · Meta (formerly Facebook) · Amazon · Microsoft · Apple · Netflix · Stripe
 
 To request a new company pack, add a file at `data/companies/<name>.md` following the same structure.

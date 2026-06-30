@@ -33,6 +33,8 @@ From anthropic.com/candidate-ai-guidance (public):
 
 ## Behavioral
 
+Reportedly (per community accounts, not an officially published process detail) there's a dedicated ~45-minute "Culture Interview" every candidate goes through regardless of role or level — not a standard FAANG-style behavioral round, and relying on pre-packaged STAR answers is described as a common way to fail it. Treat this as anecdotal, but worth knowing going in.
+
 Core themes Anthropic looks for:
 - **Ownership** — taking a project from idea to shipped without being asked
 - **Judgment under ambiguity** — making good calls with incomplete information
@@ -59,6 +61,13 @@ Suggested STAR stories:
 - Read Anthropic's public research papers (at least abstracts)
 - Understand Claude's product positioning vs. competitors
 - Have a genuine, specific answer to "why Anthropic"
+
+## Community reports
+
+Individually-cited candidate write-ups, not scraped aggregate data:
+
+- ["I failed my Anthropic interview and came to tell you all about it so you don't have to" — blog.goncharov.page](https://blog.goncharov.page/i-failed-my-anthropic-interview-and-came-to-tell-you-all-about-it-so-you-dont-have-to) — a failure-mode account, useful precisely because most public write-ups survive past the rejection stage.
+- ["Inside Anthropic's Culture Interview" — Ridhima Khurana, Substack](https://ridhimakhurana.substack.com/p/inside-anthropics-culture-interview) — first-person detail on the ~45-minute Culture Interview every candidate goes through regardless of role/level; reports that pre-packaged STAR answers are a common failure mode there specifically.
 
 ## Sources
 

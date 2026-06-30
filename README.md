@@ -130,6 +130,8 @@ Built-in coverage for:
 - [Meta](data/companies/meta.md) — formerly Facebook — speed-focused, classic LeetCode-style
 - [Amazon](data/companies/amazon.md) — classic LeetCode-style + Leadership Principles as their own bar
 - [Microsoft](data/companies/microsoft.md) — classic LeetCode-style with a behavioral warm-up each round
+- [Apple](data/companies/apple.md) — DP/sliding-window take-home filter, memory/defensive-coding emphasis
+- [Netflix](data/companies/netflix.md) — behavioral weighted heaviest of any company here, coding weighted least
 - [Stripe](data/companies/stripe.md) — take-home projects, code quality focus, not LeetCode-style
 
 Each file states its `Coding style` explicitly — some of these companies don't run a LeetCode-style interview at all, and treating every "coding interview" the same way is the fastest way to over- or under-prep.

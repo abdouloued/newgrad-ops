@@ -40,6 +40,13 @@ Suggested STAR stories:
 **Portfolio:**
 - Projects with tests, clean READMEs, and API design examples are strong signals
 
+## Community reports
+
+Individually-cited candidate write-ups, not scraped aggregate data:
+
+- ["My Stripe Interview Experience (2025–2026): A Journey to the Final Round" — Diyaag, Medium](https://medium.com/@diyaag2020/my-stripe-interview-experience-2025-2026-a-journey-to-the-final-round-19990fa6876a) — describes it as one of the more practical, "real-world" loops the author has done.
+- ["No LeetCode — The Stripe Interview Experience" — Tech Pulse, Medium](https://medium.com/tech-pulse/no-leetcode-the-stripe-interview-experience-cf1b29e6f55d) — independent candidate corroboration of the "not LeetCode-style" coding format documented above.
+
 ## Sources
 
 - https://stripe.com/jobs (job listings)
