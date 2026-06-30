@@ -1,0 +1,21 @@
+{
+  "note": "All links are to free public pages. No premium or paywalled content.",
+  "sources": {
+    "neetcode": {
+      "base_url": "https://neetcode.io/problems/",
+      "description": "Free video explanations and solutions for NeetCode 150 and Blind 75",
+      "cost": "free"
+    },
+    "algomonster": {
+      "practice_url": "https://algo.monster/practice",
+      "description": "Monster 50 curated problem list with category organization and cues",
+      "cost": "free tier available"
+    },
+    "leetcode": {
+      "base_url": "https://leetcode.com/problems/",
+      "description": "Problem statements and editorial (some free, some premium)",
+      "cost": "free for problem statements; editorials vary"
+    }
+  },
+  "usage_policy": "Only link to publicly accessible pages. Do not reproduce or cache solution content. Link out to the source."
+}

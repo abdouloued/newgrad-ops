@@ -1,0 +1,110 @@
+{
+  "Arrays / Hashing": {
+    "cue": "Need fast lookup, deduplication, or frequency counting over a flat list",
+    "common_traps": [
+      "Using a list for membership checks (O(n)) instead of a set (O(1))",
+      "Forgetting to handle empty input",
+      "Off-by-one on index ranges"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Two Pointers": {
+    "cue": "Sorted array or palindrome check; need to compare or sum elements from both ends",
+    "common_traps": [
+      "Not sorting the array first when required",
+      "Moving both pointers at the same time",
+      "Infinite loop when neither pointer moves"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Sliding Window": {
+    "cue": "Longest or shortest contiguous subarray/substring satisfying a constraint",
+    "common_traps": [
+      "Moving left pointer one step at a time instead of jumping past duplicate",
+      "Forgetting to shrink the window when the constraint is violated",
+      "Not updating the result after shrinking"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Stack": {
+    "cue": "Need to match pairs (brackets, tags), track running minimum/maximum, or find the next greater/smaller element",
+    "common_traps": [
+      "Not checking if the stack is empty before popping",
+      "Using a regular stack when a monotonic stack is needed",
+      "Forgetting to flush the stack after the main loop"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Binary Search": {
+    "cue": "Sorted array with a target; or minimize/maximize a value over a monotonic condition",
+    "common_traps": [
+      "Off-by-one: using mid+1 vs mid, left<right vs left<=right",
+      "Overflow on mid = (left+right)/2 (use left + (right-left)//2)",
+      "Not defining what left/right represent before coding"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Linked List": {
+    "cue": "In-place reversal, cycle detection, or nth-from-end in a singly linked list",
+    "common_traps": [
+      "Losing a pointer before reassigning (save next before overwriting)",
+      "Not handling the head = None edge case",
+      "Off-by-one in two-pointer (slow/fast) for middle finding"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Intervals": {
+    "cue": "Given a list of intervals, merge, insert, or count overlaps",
+    "common_traps": [
+      "Forgetting to sort by start time first",
+      "Off-by-one on overlap condition: use c <= b not c < b for overlap",
+      "Not initializing result with the first interval"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Trees": {
+    "cue": "Traverse, search, or modify a binary tree; find depth, diameter, or level order",
+    "common_traps": [
+      "Not handling null children before recursing",
+      "Confusing inorder/preorder/postorder when the order matters",
+      "Diameter error: max path is not always through root"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Graphs": {
+    "cue": "Connected components, shortest path, cycle detection, or topological ordering in a grid or adjacency list",
+    "common_traps": [
+      "Forgetting to mark nodes visited before pushing to queue (BFS double-visit)",
+      "Not building the adjacency list from edge list input",
+      "Assuming graph is connected when it may have isolated nodes"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Heap / Priority Queue": {
+    "cue": "Need the k-th largest/smallest, or always need the current minimum/maximum efficiently",
+    "common_traps": [
+      "Using max-heap when Python's heapq is a min-heap (negate values for max)",
+      "Pushing duplicates into heap when uniqueness is needed",
+      "O(n log n) heap build vs O(n) heapify — use heapify for initial construction"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Backtracking": {
+    "cue": "Generate all permutations, subsets, or valid combinations that satisfy a constraint",
+    "common_traps": [
+      "Forgetting to undo state (backtrack) after the recursive call",
+      "Not pruning early when the constraint is already violated",
+      "Appending a reference to the current list instead of a copy"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Dynamic Programming": {
+    "cue": "Optimal substructure: count ways, maximize/minimize a value, or find longest subsequence",
+    "common_traps": [
+      "Not defining the DP state clearly before writing the recurrence",
+      "Off-by-one on dp array size (often need dp[n+1] for length n)",
+      "Forgetting the base case initializations before filling the table"
+    ],
+    "review_interval_days": [1, 3, 7]
+  }
+}

@@ -1,0 +1,745 @@
+[
+  {
+    "slug": "two-sum",
+    "title": "Two Sum",
+    "difficulty": "Easy",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/two-sum",
+    "traps": [
+      "O(n^2) brute force instead of hash map"
+    ]
+  },
+  {
+    "slug": "best-time-to-buy-and-sell-stock",
+    "title": "Best Time to Buy and Sell Stock",
+    "difficulty": "Easy",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/buy-and-sell-crypto",
+    "traps": [
+      "Updating min before computing profit"
+    ]
+  },
+  {
+    "slug": "contains-duplicate",
+    "title": "Contains Duplicate",
+    "difficulty": "Easy",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/duplicate-integer",
+    "traps": [
+      "Using a list for membership checks instead of a set"
+    ]
+  },
+  {
+    "slug": "product-of-array-except-self",
+    "title": "Product of Array Except Self",
+    "difficulty": "Medium",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/products-of-array-discluding-self",
+    "traps": [
+      "Computing product with division (fails for zeros)",
+      "Using O(n) extra space when O(1) is achievable"
+    ]
+  },
+  {
+    "slug": "maximum-subarray",
+    "title": "Maximum Subarray",
+    "difficulty": "Medium",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/maximum-subarray",
+    "traps": [
+      "Not resetting the running sum to 0 when it goes negative"
+    ]
+  },
+  {
+    "slug": "maximum-product-subarray",
+    "title": "Maximum Product Subarray",
+    "difficulty": "Medium",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/maximum-product-subarray",
+    "traps": [
+      "Not tracking both max and min (negatives flip)"
+    ]
+  },
+  {
+    "slug": "find-minimum-in-rotated-sorted-array",
+    "title": "Find Minimum in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "pattern": "Binary Search",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/find-minimum-in-rotated-sorted-array",
+    "traps": [
+      "Not handling the no-rotation case"
+    ]
+  },
+  {
+    "slug": "search-in-rotated-sorted-array",
+    "title": "Search in Rotated Sorted Array",
+    "difficulty": "Medium",
+    "pattern": "Binary Search",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/find-target-in-rotated-sorted-array",
+    "traps": [
+      "Getting the two-condition logic wrong for which half is sorted"
+    ]
+  },
+  {
+    "slug": "3sum",
+    "title": "3Sum",
+    "difficulty": "Medium",
+    "pattern": "Two Pointers",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/three-integer-sum",
+    "traps": [
+      "Not skipping duplicates",
+      "Forgetting to sort first"
+    ]
+  },
+  {
+    "slug": "container-with-most-water",
+    "title": "Container With Most Water",
+    "difficulty": "Medium",
+    "pattern": "Two Pointers",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/max-water-container",
+    "traps": [
+      "Moving the taller side pointer (always move the shorter)"
+    ]
+  },
+  {
+    "slug": "longest-substring-without-repeating-characters",
+    "title": "Longest Substring Without Repeating Characters",
+    "difficulty": "Medium",
+    "pattern": "Sliding Window",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/longest-substring-without-duplicates",
+    "traps": [
+      "Moving left one step at a time instead of jumping past duplicate"
+    ]
+  },
+  {
+    "slug": "longest-repeating-character-replacement",
+    "title": "Longest Repeating Character Replacement",
+    "difficulty": "Medium",
+    "pattern": "Sliding Window",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/longest-repeating-substring-with-replacement",
+    "traps": [
+      "Trying to shrink window by decrementing maxCount"
+    ]
+  },
+  {
+    "slug": "minimum-window-substring",
+    "title": "Minimum Window Substring",
+    "difficulty": "Hard",
+    "pattern": "Sliding Window",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/minimum-window-with-characters",
+    "traps": [
+      "Not tracking how many required chars are currently satisfied"
+    ]
+  },
+  {
+    "slug": "valid-parentheses",
+    "title": "Valid Parentheses",
+    "difficulty": "Easy",
+    "pattern": "Stack",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/validate-parentheses",
+    "traps": [
+      "Not checking stack empty before popping",
+      "Not checking stack empty at end"
+    ]
+  },
+  {
+    "slug": "valid-palindrome",
+    "title": "Valid Palindrome",
+    "difficulty": "Easy",
+    "pattern": "Two Pointers",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/is-palindrome",
+    "traps": [
+      "Not skipping non-alphanumeric characters",
+      "Case sensitivity"
+    ]
+  },
+  {
+    "slug": "longest-palindromic-substring",
+    "title": "Longest Palindromic Substring",
+    "difficulty": "Medium",
+    "pattern": "Two Pointers",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/longest-palindromic-substring",
+    "traps": [
+      "Forgetting to expand around both single characters and pairs"
+    ]
+  },
+  {
+    "slug": "palindromic-substrings",
+    "title": "Palindromic Substrings",
+    "difficulty": "Medium",
+    "pattern": "Two Pointers",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/palindromic-substrings",
+    "traps": [
+      "Not counting single characters as palindromes"
+    ]
+  },
+  {
+    "slug": "encode-and-decode-strings",
+    "title": "Encode and Decode Strings",
+    "difficulty": "Medium",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/string-encode-and-decode",
+    "traps": [
+      "Using a delimiter that can appear in the strings"
+    ]
+  },
+  {
+    "slug": "group-anagrams",
+    "title": "Group Anagrams",
+    "difficulty": "Medium",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/anagram-groups",
+    "traps": [
+      "Not using a canonical key (sorted tuple of char counts)"
+    ]
+  },
+  {
+    "slug": "top-k-frequent-elements",
+    "title": "Top K Frequent Elements",
+    "difficulty": "Medium",
+    "pattern": "Heap / Priority Queue",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/top-k-elements-in-list",
+    "traps": [
+      "Full sort instead of heap or bucket sort"
+    ]
+  },
+  {
+    "slug": "longest-consecutive-sequence",
+    "title": "Longest Consecutive Sequence",
+    "difficulty": "Medium",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/longest-consecutive-sequence",
+    "traps": [
+      "Sorting first (O(n log n)) when a set gives O(n)",
+      "Starting a sequence at a non-start element"
+    ]
+  },
+  {
+    "slug": "insert-interval",
+    "title": "Insert Interval",
+    "difficulty": "Medium",
+    "pattern": "Intervals",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/insert-new-interval",
+    "traps": [
+      "Forgetting to append remaining intervals after the merge"
+    ]
+  },
+  {
+    "slug": "merge-intervals",
+    "title": "Merge Intervals",
+    "difficulty": "Medium",
+    "pattern": "Intervals",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/merge-intervals",
+    "traps": [
+      "Forgetting to sort by start time"
+    ]
+  },
+  {
+    "slug": "non-overlapping-intervals",
+    "title": "Non-overlapping Intervals",
+    "difficulty": "Medium",
+    "pattern": "Intervals",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/non-overlapping-intervals",
+    "traps": [
+      "Sorting by start instead of end"
+    ]
+  },
+  {
+    "slug": "meeting-rooms",
+    "title": "Meeting Rooms",
+    "difficulty": "Easy",
+    "pattern": "Intervals",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/meeting-schedule",
+    "traps": [
+      "Not sorting before comparing adjacent intervals"
+    ]
+  },
+  {
+    "slug": "meeting-rooms-ii",
+    "title": "Meeting Rooms II",
+    "difficulty": "Medium",
+    "pattern": "Intervals",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/meeting-schedule-ii",
+    "traps": [
+      "Using a full sort of end times when a min-heap is cleaner"
+    ]
+  },
+  {
+    "slug": "reverse-linked-list",
+    "title": "Reverse Linked List",
+    "difficulty": "Easy",
+    "pattern": "Linked List",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/reverse-a-linked-list",
+    "traps": [
+      "Losing next pointer before reassigning"
+    ]
+  },
+  {
+    "slug": "merge-two-sorted-lists",
+    "title": "Merge Two Sorted Lists",
+    "difficulty": "Easy",
+    "pattern": "Linked List",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/merge-two-sorted-linked-lists",
+    "traps": [
+      "Not appending remaining nodes after one list is exhausted"
+    ]
+  },
+  {
+    "slug": "linked-list-cycle",
+    "title": "Linked List Cycle",
+    "difficulty": "Easy",
+    "pattern": "Linked List",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/linked-list-cycle-detection",
+    "traps": [
+      "Missing null checks on fast.next in loop condition"
+    ]
+  },
+  {
+    "slug": "reorder-list",
+    "title": "Reorder List",
+    "difficulty": "Medium",
+    "pattern": "Linked List",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/reorder-linked-list",
+    "traps": [
+      "Not terminating first half before reversing second half"
+    ]
+  },
+  {
+    "slug": "remove-nth-node-from-end-of-list",
+    "title": "Remove Nth Node From End of List",
+    "difficulty": "Medium",
+    "pattern": "Linked List",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/remove-node-from-end-of-linked-list",
+    "traps": [
+      "Off-by-one: fast pointer needs to advance n+1 times to handle head removal"
+    ]
+  },
+  {
+    "slug": "merge-k-sorted-lists",
+    "title": "Merge K Sorted Lists",
+    "difficulty": "Hard",
+    "pattern": "Heap / Priority Queue",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/merge-k-sorted-linked-lists",
+    "traps": [
+      "Comparing ListNode objects directly without a key function"
+    ]
+  },
+  {
+    "slug": "invert-binary-tree",
+    "title": "Invert Binary Tree",
+    "difficulty": "Easy",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/invert-a-binary-tree",
+    "traps": [
+      "Swapping children and recursing is correct in any order"
+    ]
+  },
+  {
+    "slug": "maximum-depth-of-binary-tree",
+    "title": "Maximum Depth of Binary Tree",
+    "difficulty": "Easy",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/depth-of-binary-tree",
+    "traps": [
+      "Returning 0 for a non-null leaf instead of 1"
+    ]
+  },
+  {
+    "slug": "same-tree",
+    "title": "Same Tree",
+    "difficulty": "Easy",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/same-binary-tree",
+    "traps": [
+      "Checking values before checking null structure"
+    ]
+  },
+  {
+    "slug": "subtree-of-another-tree",
+    "title": "Subtree of Another Tree",
+    "difficulty": "Easy",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/subtree-of-a-binary-tree",
+    "traps": [
+      "Not checking the root itself as a subtree candidate"
+    ]
+  },
+  {
+    "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+    "title": "Lowest Common Ancestor of a BST",
+    "difficulty": "Medium",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/lowest-common-ancestor-in-binary-search-tree",
+    "traps": [
+      "Using general LCA instead of BST-specific navigation"
+    ]
+  },
+  {
+    "slug": "binary-tree-level-order-traversal",
+    "title": "Binary Tree Level Order Traversal",
+    "difficulty": "Medium",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/level-order-traversal-of-binary-tree",
+    "traps": [
+      "Iterating over a growing queue instead of snapshotting level size"
+    ]
+  },
+  {
+    "slug": "validate-binary-search-tree",
+    "title": "Validate Binary Search Tree",
+    "difficulty": "Medium",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/valid-binary-search-tree",
+    "traps": [
+      "Only comparing node to its direct children instead of propagating bounds"
+    ]
+  },
+  {
+    "slug": "kth-smallest-element-in-a-bst",
+    "title": "Kth Smallest Element in a BST",
+    "difficulty": "Medium",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/kth-smallest-integer-in-bst",
+    "traps": [
+      "Not knowing that inorder traversal of BST gives sorted order"
+    ]
+  },
+  {
+    "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+    "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+    "difficulty": "Medium",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/binary-tree-from-preorder-and-inorder-traversal",
+    "traps": [
+      "Not using a hash map to find inorder index in O(1)"
+    ]
+  },
+  {
+    "slug": "binary-tree-maximum-path-sum",
+    "title": "Binary Tree Maximum Path Sum",
+    "difficulty": "Hard",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/binary-tree-maximum-path-sum",
+    "traps": [
+      "Forgetting that a path can start/end at any node, not just root"
+    ]
+  },
+  {
+    "slug": "serialize-and-deserialize-binary-tree",
+    "title": "Serialize and Deserialize Binary Tree",
+    "difficulty": "Hard",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/serialize-and-deserialize-binary-tree",
+    "traps": [
+      "Not handling null markers in the serialization format"
+    ]
+  },
+  {
+    "slug": "implement-trie",
+    "title": "Implement Trie (Prefix Tree)",
+    "difficulty": "Medium",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/implement-prefix-tree",
+    "traps": [
+      "Forgetting the is_end_of_word flag at terminal nodes"
+    ]
+  },
+  {
+    "slug": "design-add-and-search-words-data-structure",
+    "title": "Design Add and Search Words Data Structure",
+    "difficulty": "Medium",
+    "pattern": "Trees",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/design-word-search-data-structure",
+    "traps": [
+      "Not handling the wildcard '.' by recursing into all children"
+    ]
+  },
+  {
+    "slug": "word-search-ii",
+    "title": "Word Search II",
+    "difficulty": "Hard",
+    "pattern": "Backtracking",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/search-for-word-ii",
+    "traps": [
+      "Not pruning branches using the Trie",
+      "Not removing found words from Trie to avoid duplicates"
+    ]
+  },
+  {
+    "slug": "combination-sum",
+    "title": "Combination Sum",
+    "difficulty": "Medium",
+    "pattern": "Backtracking",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/combination-target-sum",
+    "traps": [
+      "Forgetting to backtrack (pop) after the recursive call"
+    ]
+  },
+  {
+    "slug": "word-search",
+    "title": "Word Search",
+    "difficulty": "Medium",
+    "pattern": "Graphs",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/search-for-word",
+    "traps": [
+      "Not unmarking cells as unvisited when backtracking"
+    ]
+  },
+  {
+    "slug": "number-of-islands",
+    "title": "Number of Islands",
+    "difficulty": "Medium",
+    "pattern": "Graphs",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/count-number-of-islands",
+    "traps": [
+      "Not marking cells visited before pushing to queue"
+    ]
+  },
+  {
+    "slug": "clone-graph",
+    "title": "Clone Graph",
+    "difficulty": "Medium",
+    "pattern": "Graphs",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/clone-graph",
+    "traps": [
+      "Forgetting to check if a node is already cloned before creating a new one"
+    ]
+  },
+  {
+    "slug": "course-schedule",
+    "title": "Course Schedule",
+    "difficulty": "Medium",
+    "pattern": "Graphs",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/course-schedule",
+    "traps": [
+      "Not clearing the in-progress set after finishing a node"
+    ]
+  },
+  {
+    "slug": "pacific-atlantic-water-flow",
+    "title": "Pacific Atlantic Water Flow",
+    "difficulty": "Medium",
+    "pattern": "Graphs",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/pacific-atlantic-water-flow",
+    "traps": [
+      "Doing forward flow instead of reverse BFS from borders"
+    ]
+  },
+  {
+    "slug": "number-of-connected-components-in-an-undirected-graph",
+    "title": "Number of Connected Components",
+    "difficulty": "Medium",
+    "pattern": "Graphs",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/count-connected-components",
+    "traps": [
+      "Not implementing path compression in Union-Find"
+    ]
+  },
+  {
+    "slug": "graph-valid-tree",
+    "title": "Graph Valid Tree",
+    "difficulty": "Medium",
+    "pattern": "Graphs",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/valid-tree",
+    "traps": [
+      "Not checking that n-1 edges exist for a tree"
+    ]
+  },
+  {
+    "slug": "alien-dictionary",
+    "title": "Alien Dictionary",
+    "difficulty": "Hard",
+    "pattern": "Graphs",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/foreign-dictionary",
+    "traps": [
+      "Not handling the invalid case where a shorter word comes after a longer prefix"
+    ]
+  },
+  {
+    "slug": "find-median-from-data-stream",
+    "title": "Find Median from Data Stream",
+    "difficulty": "Hard",
+    "pattern": "Heap / Priority Queue",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/find-median-in-a-data-stream",
+    "traps": [
+      "Forgetting to negate values for max-heap in Python"
+    ]
+  },
+  {
+    "slug": "climbing-stairs",
+    "title": "Climbing Stairs",
+    "difficulty": "Easy",
+    "pattern": "Dynamic Programming",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/climbing-stairs",
+    "traps": [
+      "Off-by-one on base cases"
+    ]
+  },
+  {
+    "slug": "house-robber",
+    "title": "House Robber",
+    "difficulty": "Medium",
+    "pattern": "Dynamic Programming",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/house-robber",
+    "traps": [
+      "Not initializing base cases before the loop"
+    ]
+  },
+  {
+    "slug": "house-robber-ii",
+    "title": "House Robber II",
+    "difficulty": "Medium",
+    "pattern": "Dynamic Programming",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/house-robber-ii",
+    "traps": [
+      "Not running house robber twice on the two linear sub-arrays"
+    ]
+  },
+  {
+    "slug": "decode-ways",
+    "title": "Decode Ways",
+    "difficulty": "Medium",
+    "pattern": "Dynamic Programming",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/decode-ways",
+    "traps": [
+      "Not handling leading zeros ('06' is not valid)"
+    ]
+  },
+  {
+    "slug": "coin-change",
+    "title": "Coin Change",
+    "difficulty": "Medium",
+    "pattern": "Dynamic Programming",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/coin-change",
+    "traps": [
+      "Initializing dp with 0 instead of infinity"
+    ]
+  },
+  {
+    "slug": "word-break",
+    "title": "Word Break",
+    "difficulty": "Medium",
+    "pattern": "Dynamic Programming",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/word-break",
+    "traps": [
+      "Not initializing dp[0] = True"
+    ]
+  },
+  {
+    "slug": "longest-increasing-subsequence",
+    "title": "Longest Increasing Subsequence",
+    "difficulty": "Medium",
+    "pattern": "Dynamic Programming",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/longest-increasing-subsequence",
+    "traps": [
+      "Using >= instead of > (must be strictly increasing)"
+    ]
+  },
+  {
+    "slug": "unique-paths",
+    "title": "Unique Paths",
+    "difficulty": "Medium",
+    "pattern": "Dynamic Programming",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/count-paths",
+    "traps": [
+      "Not initializing the first row and column to 1"
+    ]
+  },
+  {
+    "slug": "longest-common-subsequence",
+    "title": "Longest Common Subsequence",
+    "difficulty": "Medium",
+    "pattern": "Dynamic Programming",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/longest-common-subsequence",
+    "traps": [
+      "Confusing subsequence (non-contiguous) with substring (contiguous)"
+    ]
+  },
+  {
+    "slug": "jump-game",
+    "title": "Jump Game",
+    "difficulty": "Medium",
+    "pattern": "Dynamic Programming",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/jump-game",
+    "traps": [
+      "DP (O(n^2)) instead of greedy max-reach scan (O(n))"
+    ]
+  },
+  {
+    "slug": "jump-game-ii",
+    "title": "Jump Game II",
+    "difficulty": "Medium",
+    "pattern": "Dynamic Programming",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/jump-game-ii",
+    "traps": [
+      "Not updating the next boundary correctly"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "statuses": [
+    { "id": "applied", "label": "Applied", "next_actions": ["Wait 1–2 weeks", "Find a referral", "Connect with recruiter on LinkedIn"] },
+    { "id": "oa_sent", "label": "OA Sent", "next_actions": ["Complete OA within deadline", "Check deadline date", "Practice relevant patterns first"] },
+    { "id": "oa_completed", "label": "OA Completed", "next_actions": ["Wait 1–2 weeks for result", "Note which problems appeared"] },
+    { "id": "phone_screen", "label": "Phone Screen Scheduled", "next_actions": ["Research company and role", "Prepare 2-min intro", "Review recent work"] },
+    { "id": "technical", "label": "Technical Interview", "next_actions": ["Practice think-aloud", "Review key patterns", "Prepare questions to ask"] },
+    { "id": "final_round", "label": "Final Round", "next_actions": ["Prepare STAR stories", "Research team and interviewer", "Prepare thoughtful questions"] },
+    { "id": "offer", "label": "Offer Received", "next_actions": ["Evaluate compensation", "Negotiate if appropriate", "Set decision deadline"] },
+    { "id": "rejected", "label": "Rejected", "next_actions": ["Ask for feedback if possible", "Log weak areas to improve", "Reapply in 6–12 months if eligible"] },
+    { "id": "ghosted", "label": "Ghosted", "next_actions": ["Send one polite follow-up", "Move on after 3 weeks of silence"] }
+  ]
+}

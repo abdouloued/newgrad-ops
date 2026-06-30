@@ -1,0 +1,25 @@
+{
+  "description": "Template for a weekly recruiting calendar. Fill in dates and company names.",
+  "internship_recruiting_season": {
+    "summer_internships": "August–November of the prior year (apply early — many close by October)",
+    "spring_internships": "October–January",
+    "note": "Top companies (Google, Meta, Amazon) open applications in August–September. Do not wait for spring."
+  },
+  "new_grad_recruiting_season": {
+    "primary_window": "August–December for the following year's new grad cohort",
+    "secondary_window": "January–March for roles starting mid-year",
+    "note": "New grad timelines shift by company. Check each company's careers page directly."
+  },
+  "weekly_template": {
+    "Monday": ["Tailor resume for 1–2 target roles", "Submit 1–2 applications"],
+    "Tuesday": ["5 LeetCode problems (focused pattern)", "Log OA results or interview notes"],
+    "Wednesday": ["Submit 1–2 applications", "Referral outreach to 1–2 people"],
+    "Thursday": ["Mock interview or timed OA practice", "Follow up on pending applications (if 2+ weeks)"],
+    "Friday": ["Portfolio improvement task", "Review weak patterns", "Plan next week's targets"]
+  },
+  "volume_targets": {
+    "applications_per_week": "5–10 for internships, 5–8 for new grad",
+    "leetcode_per_week": "10–15 problems minimum during active prep",
+    "referral_outreach_per_week": "2–3 personalized messages"
+  }
+}
