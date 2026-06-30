@@ -74,8 +74,6 @@ in `skills/student-career/SKILL.md` — they must stay in sync.
 - **Add `## Community reports` to the older company files.** Anthropic,
   OpenAI, Google, Meta, and Stripe don't have one yet — Amazon and Microsoft
   do, use those as the reference format.
-- **Build the CI Action mentioned below** — currently nothing blocks a PR
-  from merging broken JSON or a dead link.
 - NeetCode 150 is exactly 150, Monster 50 is exactly 50, and Blind 75 has 76
   (the canonical list is 75, but we picked up a duplicate-flagging fix that
   left one extra real problem in — not worth removing a correct entry just
@@ -85,19 +83,15 @@ in `skills/student-career/SKILL.md` — they must stay in sync.
 ## Testing your change
 
 ```bash
-# JSON must parse
-python3 -c "import json; json.load(open('data/interview/your-file.json'))"
-
-# search script should surface your new entries
-python scripts/search_problems.py --pattern "Your Pattern"
-
-# resume/readme scorers should still run clean
-python scripts/score_resume.py templates/resumes/new-grad-template.md
-python scripts/score_readme.py templates/github-readmes/project-readme-template.md
+python scripts/validate_repo.py
 ```
 
-There's no CI yet (also a good first issue — a GitHub Action that runs the
-checks above on every PR would be welcome).
+This runs everything CI runs: JSON parses cleanly, every problem entry has
+the required fields and a pattern that matches `patterns.json`, no duplicate
+slugs, all internal markdown links resolve, and the resume/readme/search
+scripts still run clean. `.github/workflows/validate.yml` runs the same
+script on every push and PR to `main` — if it fails locally, it'll fail in
+CI too.
 
 ## Pull requests
 

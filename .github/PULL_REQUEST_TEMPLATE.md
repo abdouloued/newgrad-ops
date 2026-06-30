@@ -12,7 +12,6 @@
 
 ## Checklist
 
-- [ ] JSON files still parse (`python3 -c "import json; json.load(open('path/to/file.json'))"`)
-- [ ] New/changed problem entries have `slug`, `title`, `difficulty`, `pattern` (matching `data/interview/patterns.json`), a public URL, and at least one trap
+- [ ] `python scripts/validate_repo.py` passes locally (CI runs this too)
 - [ ] If a command's behavior changed, `SKILL.md`'s command index was updated to match
 - [ ] No paywalled/scraped content, no fabricated referrals or contacts (see [CONTRIBUTING.md](../CONTRIBUTING.md))

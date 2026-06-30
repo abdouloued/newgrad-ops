@@ -82,6 +82,7 @@ LeetCode, interview prep, company prep, portfolio audit, referral, recruiting
 - `scripts/score_readme.py` — GitHub README quality scorer
 - `scripts/generate_review_schedule.py` — spaced repetition schedule from solved list
 - `scripts/search_problems.py` — search the problem maps by slug, title, pattern, or difficulty; backs `interview diagnose`, `interview company`, and `interview explain-with-links`
+- `scripts/validate_repo.py` — repo-wide consistency check (JSON schema, duplicate slugs, broken links, script smoke tests); same checks CI runs on every PR
 
 ---
 
