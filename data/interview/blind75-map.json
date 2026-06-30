@@ -741,5 +741,104 @@
     "traps": [
       "Not updating the next boundary correctly"
     ]
+  },
+  {
+    "slug": "sum-of-two-integers",
+    "title": "Sum of Two Integers",
+    "difficulty": "Medium",
+    "pattern": "Bit Manipulation",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/sum-of-two-integers",
+    "traps": [
+      "Not looping carry propagation until it's zero \u2014 a single XOR+AND pass isn't enough when multiple bit positions carry"
+    ]
+  },
+  {
+    "slug": "number-of-1-bits",
+    "title": "Number of 1 Bits",
+    "difficulty": "Easy",
+    "pattern": "Bit Manipulation",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/number-of-one-bits",
+    "traps": [
+      "Looping all 32 bits instead of using n & (n-1) to drop the lowest set bit each iteration (fewer iterations for sparse bits)"
+    ]
+  },
+  {
+    "slug": "counting-bits",
+    "title": "Counting Bits",
+    "difficulty": "Easy",
+    "pattern": "Bit Manipulation",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/counting-bits",
+    "traps": [
+      "Recomputing popcount from scratch for every i (O(n log n)) instead of reusing dp[i] = 1 + dp[i - offset] (O(n))"
+    ]
+  },
+  {
+    "slug": "missing-number",
+    "title": "Missing Number",
+    "difficulty": "Easy",
+    "pattern": "Bit Manipulation",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/missing-number",
+    "traps": [
+      "Sorting first (O(n log n)) instead of using the O(n) sum-formula or XOR approach"
+    ]
+  },
+  {
+    "slug": "reverse-bits",
+    "title": "Reverse Bits",
+    "difficulty": "Easy",
+    "pattern": "Bit Manipulation",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/reverse-bits",
+    "traps": [
+      "Off-by-one placing bit i at position (31 - i) \u2014 easy to flip the index direction"
+    ]
+  },
+  {
+    "slug": "set-matrix-zeroes",
+    "title": "Set Matrix Zeroes",
+    "difficulty": "Medium",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/zero-matrix",
+    "traps": [
+      "Using the matrix itself to mark zeros before applying them (use row/col flags)"
+    ]
+  },
+  {
+    "slug": "spiral-matrix",
+    "title": "Spiral Matrix",
+    "difficulty": "Medium",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/spiral-matrix",
+    "traps": [
+      "Off-by-one on boundary shrinkage"
+    ]
+  },
+  {
+    "slug": "rotate-image",
+    "title": "Rotate Image",
+    "difficulty": "Medium",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/rotate-matrix",
+    "traps": [
+      "Transposing and reversing in the wrong order"
+    ]
+  },
+  {
+    "slug": "valid-anagram",
+    "title": "Valid Anagram",
+    "difficulty": "Easy",
+    "pattern": "Arrays / Hashing",
+    "list": "blind75",
+    "neetcode_url": "https://neetcode.io/problems/is-anagram",
+    "traps": [
+      "Sorting strings (O(n log n)) instead of using character count map"
+    ]
   }
 ]

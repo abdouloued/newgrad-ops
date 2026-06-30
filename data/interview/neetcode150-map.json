@@ -1784,5 +1784,291 @@
       "blind75",
       "monster50"
     ]
+  },
+  {
+    "slug": "reconstruct-itinerary",
+    "title": "Reconstruct Itinerary",
+    "difficulty": "Hard",
+    "pattern": "Advanced Graphs",
+    "neetcode_url": "https://neetcode.io/problems/reconstruct-flight-path",
+    "traps": [
+      "Plain DFS gets stuck at dead ends \u2014 needs Hierholzer's algorithm / Eulerian path backtracking, not a greedy single pass"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "min-cost-to-connect-all-points",
+    "title": "Min Cost to Connect All Points",
+    "difficulty": "Medium",
+    "pattern": "Advanced Graphs",
+    "neetcode_url": "https://neetcode.io/problems/min-cost-to-connect-points",
+    "traps": [
+      "Naive Kruskal's without union-find, or O(V^2) edge generation instead of O(V^2) Prim's, blows up on dense point sets"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "network-delay-time",
+    "title": "Network Delay Time",
+    "difficulty": "Medium",
+    "pattern": "Advanced Graphs",
+    "neetcode_url": "https://neetcode.io/problems/network-delay-time",
+    "traps": [
+      "Using plain BFS/DFS instead of Dijkstra's \u2014 edge weights make unweighted shortest-path traversal wrong"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "swim-in-rising-water",
+    "title": "Swim in Rising Water",
+    "difficulty": "Hard",
+    "pattern": "Advanced Graphs",
+    "neetcode_url": "https://neetcode.io/problems/swim-in-rising-water",
+    "traps": [
+      "Minimizing path length instead of minimizing the maximum elevation along the path \u2014 wrong objective function"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "cheapest-flights-within-k-stops",
+    "title": "Cheapest Flights Within K Stops",
+    "difficulty": "Medium",
+    "pattern": "Advanced Graphs",
+    "neetcode_url": "https://neetcode.io/problems/cheapest-flight-path",
+    "traps": [
+      "Standard Dijkstra ignores the 'at most k stops' constraint \u2014 needs Bellman-Ford-style relaxation bounded to k+1 rounds"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "gas-station",
+    "title": "Gas Station",
+    "difficulty": "Medium",
+    "pattern": "Greedy",
+    "neetcode_url": "https://neetcode.io/problems/gas-station",
+    "traps": [
+      "Brute-force checking every starting index is O(n^2) \u2014 a single greedy pass tracking total/current tank is O(n)"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "hand-of-straights",
+    "title": "Hand of Straights",
+    "difficulty": "Medium",
+    "pattern": "Greedy",
+    "neetcode_url": "https://neetcode.io/problems/hand-of-straights",
+    "traps": [
+      "Not always starting a new group from the smallest remaining card leaves valid groupings undetected"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "merge-triplets-to-form-target-triplet",
+    "title": "Merge Triplets to Form Target Triplet",
+    "difficulty": "Medium",
+    "pattern": "Greedy",
+    "neetcode_url": "https://neetcode.io/problems/merge-triplets-to-form-target",
+    "traps": [
+      "Forgetting to discard triplets with any coordinate greater than the target before merging"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "partition-labels",
+    "title": "Partition Labels",
+    "difficulty": "Medium",
+    "pattern": "Greedy",
+    "neetcode_url": "https://neetcode.io/problems/partition-labels",
+    "traps": [
+      "Off-by-one comparing the current index to the partition's end \u2014 track the max last-seen index, not the count"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "valid-parenthesis-string",
+    "title": "Valid Parenthesis String",
+    "difficulty": "Medium",
+    "pattern": "Greedy",
+    "neetcode_url": "https://neetcode.io/problems/valid-parenthesis-string",
+    "traps": [
+      "Treating '*' as only '(' or ')' \u2014 it can also represent an empty string, which matters for cases like \"(*)\""
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "happy-number",
+    "title": "Happy Number",
+    "difficulty": "Easy",
+    "pattern": "Math & Geometry",
+    "neetcode_url": "https://leetcode.com/problems/happy-number/",
+    "traps": [
+      "No cycle detection (seen-set) means a non-happy number causes an infinite loop instead of returning false"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "plus-one",
+    "title": "Plus One",
+    "difficulty": "Easy",
+    "pattern": "Math & Geometry",
+    "neetcode_url": "https://neetcode.io/problems/plus-one",
+    "traps": [
+      "Not handling the all-9s carry case (e.g. [9,9,9] -> [1,0,0,0]) \u2014 needs a prepended digit, not just in-place increment"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "powx-n",
+    "title": "Pow(x, n)",
+    "difficulty": "Medium",
+    "pattern": "Math & Geometry",
+    "neetcode_url": "https://neetcode.io/problems/pow-x-n",
+    "traps": [
+      "O(n) repeated multiplication instead of O(log n) binary exponentiation; forgetting to invert the result for negative n"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "multiply-strings",
+    "title": "Multiply Strings",
+    "difficulty": "Medium",
+    "pattern": "Math & Geometry",
+    "neetcode_url": "https://neetcode.io/problems/multiply-strings",
+    "traps": [
+      "Not stripping leading zeros from the result before returning (and returning \"0\" itself when the product is zero)"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "detect-squares",
+    "title": "Detect Squares",
+    "difficulty": "Medium",
+    "pattern": "Math & Geometry",
+    "neetcode_url": "https://neetcode.io/problems/count-squares",
+    "traps": [
+      "Using a set instead of a counter for points loses multiplicity, undercounting squares when a point is added more than once"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "single-number",
+    "title": "Single Number",
+    "difficulty": "Easy",
+    "pattern": "Bit Manipulation",
+    "neetcode_url": "https://neetcode.io/problems/single-number",
+    "traps": [
+      "Using a hash set for O(n) space instead of the O(1)-space XOR trick (XOR-ing all values cancels every pair)"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "number-of-1-bits",
+    "title": "Number of 1 Bits",
+    "difficulty": "Easy",
+    "pattern": "Bit Manipulation",
+    "neetcode_url": "https://neetcode.io/problems/number-of-one-bits",
+    "traps": [
+      "Looping all 32 bits instead of using n & (n-1) to drop the lowest set bit each iteration (fewer iterations for sparse bits)"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "counting-bits",
+    "title": "Counting Bits",
+    "difficulty": "Easy",
+    "pattern": "Bit Manipulation",
+    "neetcode_url": "https://neetcode.io/problems/counting-bits",
+    "traps": [
+      "Recomputing popcount from scratch for every i (O(n log n)) instead of reusing dp[i] = 1 + dp[i - offset] (O(n))"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "reverse-bits",
+    "title": "Reverse Bits",
+    "difficulty": "Easy",
+    "pattern": "Bit Manipulation",
+    "neetcode_url": "https://neetcode.io/problems/reverse-bits",
+    "traps": [
+      "Off-by-one placing bit i at position (31 - i) \u2014 easy to flip the index direction"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "missing-number",
+    "title": "Missing Number",
+    "difficulty": "Easy",
+    "pattern": "Bit Manipulation",
+    "neetcode_url": "https://neetcode.io/problems/missing-number",
+    "traps": [
+      "Sorting first (O(n log n)) instead of using the O(n) sum-formula or XOR approach"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "sum-of-two-integers",
+    "title": "Sum of Two Integers",
+    "difficulty": "Medium",
+    "pattern": "Bit Manipulation",
+    "neetcode_url": "https://neetcode.io/problems/sum-of-two-integers",
+    "traps": [
+      "Not looping carry propagation until it's zero \u2014 a single XOR+AND pass isn't enough when multiple bit positions carry"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
+  },
+  {
+    "slug": "reverse-integer",
+    "title": "Reverse Integer",
+    "difficulty": "Medium",
+    "pattern": "Bit Manipulation",
+    "neetcode_url": "https://neetcode.io/problems/reverse-integer",
+    "traps": [
+      "Not checking for 32-bit signed overflow before/while building the reversed number"
+    ],
+    "lists": [
+      "neetcode150"
+    ]
   }
 ]

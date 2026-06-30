@@ -106,5 +106,41 @@
       "Forgetting the base case initializations before filling the table"
     ],
     "review_interval_days": [1, 3, 7]
+  },
+  "Advanced Graphs": {
+    "cue": "Weighted shortest path, minimum spanning tree, or a graph problem where plain BFS/DFS ignores edge costs",
+    "common_traps": [
+      "Using unweighted BFS/DFS when edges have weights — needs Dijkstra, Bellman-Ford, or Prim's/Kruskal's instead",
+      "Ignoring a stated constraint (e.g. 'at most k stops') that changes which algorithm is correct",
+      "Missing the Eulerian-path backtracking a 'visit every edge once' problem requires — plain DFS gets stuck at dead ends"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Greedy": {
+    "cue": "A local, irreversible choice at each step provably leads to a global optimum — no need to reconsider past decisions",
+    "common_traps": [
+      "Reaching for DP or brute force when a single greedy pass suffices, or vice versa — proving greedy-correctness matters",
+      "Not sorting or pre-processing input first when the greedy choice depends on order",
+      "Missing an edge case where the 'obviously correct' local choice isn't actually optimal — verify with a small example first"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Math & Geometry": {
+    "cue": "Number theory, coordinate geometry, or array-as-grid manipulation that isn't really a 'data structures' problem",
+    "common_traps": [
+      "Off-by-one or sign errors in coordinate/index math",
+      "Not handling overflow, negative numbers, or zero as explicit edge cases",
+      "Brute-force complexity when a closed-form or O(log n) approach exists (e.g. binary exponentiation)"
+    ],
+    "review_interval_days": [1, 3, 7]
+  },
+  "Bit Manipulation": {
+    "cue": "XOR/AND/OR tricks for single-number, counting-bits, or addition-without-arithmetic-operators problems",
+    "common_traps": [
+      "Reaching for extra space (hash set) when an O(1)-space XOR trick solves it",
+      "Off-by-one on bit index when reversing or extracting bits",
+      "Not looping carry propagation until it's zero when implementing addition via bitwise operators"
+    ],
+    "review_interval_days": [1, 3, 7]
   }
 }

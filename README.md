@@ -79,8 +79,8 @@ Three curated lists for structured interview prep:
 
 | List | Problems | Source |
 |------|----------|--------|
-| **NeetCode 150** | 150 problems, 12 patterns | [neetcode.io](https://neetcode.io/practice) — free video explanations |
-| **Blind 75** | 75 problems (highest-frequency) | [neetcode.io](https://neetcode.io/practice) |
+| **NeetCode 150** | 150 problems, 16 patterns | [neetcode.io](https://neetcode.io/practice) — free video explanations |
+| **Blind 75** | 76 problems (highest-frequency) | [neetcode.io](https://neetcode.io/practice) |
 | **Monster 50** | 50 highest-ROI problems, 12 categories | [algo.monster/practice](https://algo.monster/practice) — organized by cue and trap |
 
 All three are mapped in `data/interview/` with patterns, traps, and public solution links.
